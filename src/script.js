@@ -73,7 +73,7 @@ const metaballs = new MarchingCubes(
     true, // enableColors
     90000 // max poly count
 );
-metaballs.scale.setScalar(15);
+metaballs.scale.setScalar(10);
 metaballs.isolation = 1000;
 metaballs.userData = {
     update()
